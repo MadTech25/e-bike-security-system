@@ -55,6 +55,13 @@ This system is designed for stealth integration into e-bikes used in urban envir
 
 _Add screenshots or photos of the build here._
 
+## 📸 Photo Gallery
+
+| Inside View | Module Layout |
+|-------------|----------------|
+| ![](20250522_160346.jpg) | ![](20250522_160354.jpg) |
+
+
 ## 🧠 Author
 
 Quantum Richardson  
