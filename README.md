@@ -55,11 +55,16 @@ This system is designed for stealth integration into e-bikes used in urban envir
 
 _Add screenshots or photos of the build here._
 
-## 📸 Photo Gallery
+## 🚲 Turn Signal System – Photo Gallery
 
-| Inside View | Module Layout |
-|-------------|----------------|
-| ![](20250522_160346.jpg) | ![](20250522_160354.jpg) |
+| Wiring Overview | LED Matrix Mount | Signal Controller |
+|------------------|------------------|-------------------|
+| ![](./20250522_170357~2.jpg) | ![](./20250522_170415.jpg) | ![](./20250522_170448.jpg) |
+
+| Power Source | Rear LED View | Front LED View |
+|--------------|----------------|----------------|
+| ![](./20250522_170502_HDR.jpg) | ![](./20250522_170712.jpg) | ![](./20250522_170736.jpg) |
+
 
 
 ## 🧠 Author
