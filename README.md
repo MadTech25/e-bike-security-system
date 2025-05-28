@@ -55,6 +55,12 @@ This system is designed for stealth integration into e-bikes used in urban envir
 
 _Add screenshots or photos of the build here._
 
+## 🚨 Bike Alarm Alert System Demo
+
+[![Watch the demo](https://img.youtube.com/vi/Zp6YWZ3aiaM/0.jpg)](https://youtu.be/Zp6YWZ3aiaM?si=oYv9vBbMmv33CoZm)
+This video demonstrates the real-time motion detection alert system using an Arduino tilt sensor, ESP32 receiver, and Discord webhook for instant notifications.
+
+
 ## 🚲 Turn Signal System – Photo Gallery
 
 | Wiring Overview | LED Matrix Mount | Signal Controller |
