@@ -1,79 +1,35 @@
-# E-Bike Security System
+# E-Bike Security System 🚲🔒
 
-An advanced anti-theft system designed for electric bicycles. This project integrates GPS tracking, RFID/NFC locking, alarm systems, and onboard camera surveillance using Arduino and Raspberry Pi components.
+Smart anti-theft and control system for custom e-bikes.  
+Built with ESP32 microcontrollers, modular hardware, and open-source firmware.
 
-## 🔒 Features
+---
 
-- **RFID/NFC Smart Lock:** Unlock via RFID card or smartphone NFC
-- **GPS Tracking:** Real-time location updates if the bike is stolen
-- **Motion-Triggered Alarm:** Sound and flashing lights when movement is detected
-- **Cameras:** Hidden surveillance using Pi cameras
-- **Remote Alerts:** Push notifications via SMS, Discord, or app
-- **Power Management:** Separate battery with sleep and power-saving modes
+## 🔧 Features
+- **Alarm System** — motion/tamper detection with buzzer + flashing LEDs  
+- **RFID + Keypad Lock** — secure unlock with RFID card or code  
+- **GPS Tracking** — locate your bike if stolen (NEO-6M GPS)  
+- **Wireless Comms** — ESP-NOW for board-to-board communication  
+- **Expandable** — designed for modular add-ons (sensors, displays, etc.)
 
-## 🛠 Hardware
+---
 
-- Raspberry Pi 4 or 5
-- Arduino Nano / Uno
-- RFID Reader + Keycard / NFC-compatible phone
-- GPS Module (Neo-6M or similar)
-- Motion Sensor (PIR or accelerometer)
-- Buzzer / Alarm
-- LEDs or strobe lights
-- Hidden Pi Cameras
-- Separate rechargeable battery
+## 📂 Repo Structure
+- `docs/` → Roadmap, changelog, repo map  
+- `firmware/` → ESP32 firmware (ESP32-1, ESP32-2, ESP32-S3 stubs)  
+- `hardware/` → wiring templates, enclosure placeholders  
+- `media/` → images and demo videos  
 
-## 💻 Software Stack
+---
 
-- Python (Raspberry Pi)
-- C++ / Arduino Sketches (Microcontroller)
-- Webhooks or Bluetooth for alerts
-- Systemd or cron for background services
-
-## 📦 Repository Structure
-
-```
-e-bike-security-system/
-├── README.md
-├── arduino/
-│   └── rfid_lock.ino
-├── pi/
-│   ├── gps_tracker.py
-│   ├── alarm_trigger.py
-│   └── camera_stream.py
-├── system/
-│   └── systemd-setup.md
-└── wiring/
-    └── wiring_diagram.png
-```
-
-## 🚴 Use Case
-
-This system is designed for stealth integration into e-bikes used in urban environments. It supports manual or remote arming, and all components are low-power to preserve battery life.
-
-## 📷 Demo
-
-_Add screenshots or photos of the build here._
-
-## 🚨 Bike Alarm Alert System Demo
-
-[![Watch the demo](https://img.youtube.com/vi/Zp6YWZ3aiaM/0.jpg)](https://youtu.be/Zp6YWZ3aiaM?si=oYv9vBbMmv33CoZm)
-This video demonstrates the real-time motion detection alert system using an Arduino tilt sensor, ESP32 receiver, and Discord webhook for instant notifications.
+## 🚀 Quickstart
+1. Clone the repo:
+   ```bash            ← three backticks go here (open the code block)
+   git clone https://github.com/MadTech25/e-bike-security-system.git
+   cd e-bike-security-system
+   ```                ← three backticks go here (close the code block)
+2. Open `firmware/esp32-*/examples/` in Arduino IDE or PlatformIO.  
+3. Flash one of the stub sketches to your board.  
+4. Check `docs/ROADMAP.md` for development phases.
 
 
-## 🚲 Turn Signal System – Photo Gallery
-
-| Wiring Overview | LED Matrix Mount | Signal Controller |
-|------------------|------------------|-------------------|
-| ![](./20250522_170357~2.jpg) | ![](./20250522_170415.jpg) | ![](./20250522_170448.jpg) |
-
-| Power Source | Rear LED View | Front LED View |
-|--------------|----------------|----------------|
-| ![](./20250522_170502_HDR.jpg) | ![](./20250522_170712.jpg) | ![](./20250522_170736.jpg) |
-
-
-
-## 🧠 Author
-
-Quantum Richardson  
-[GitHub Profile](https://github.com/MadTech25)
