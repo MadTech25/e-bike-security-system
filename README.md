@@ -38,3 +38,7 @@ Built with ESP32 microcontrollers, modular hardware, and open-source firmware.
 
 See [Appendix A — Development Incident & Recovery Log](docs/APPENDIX.md) for detailed notes on the 09/10/2025 surge and recovery event.
 
+## ?? Appendices
+
+- [Appendix A — Capstone Documentation](docs/APPENDIX_A.md)
+- [Appendix B2 — Development Incident & Recovery Log](docs/APPENDIX_B2.md)
