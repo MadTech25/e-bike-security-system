@@ -33,3 +33,8 @@ Built with ESP32 microcontrollers, modular hardware, and open-source firmware.
 4. Check `docs/ROADMAP.md` for development phases.
 
 
+
+## ?? Appendix
+
+See [Appendix A — Development Incident & Recovery Log](docs/APPENDIX.md) for detailed notes on the 09/10/2025 surge and recovery event.
+
