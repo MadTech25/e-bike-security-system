@@ -45,3 +45,10 @@ See [Appendix A  Development Incident & Recovery Log](docs/APPENDIX.md) for deta
 
 
 
+## Appendices
+
+- [Appendix A — Capstone Report](docs/APPENDIX_A.md)
+- [Appendix B1 — Technical Notes](docs/APPENDIX.md)
+- [Appendix B2 — Power Protection & ESP-NOW](docs/APPENDIX_B2.md)
+- [Appendix B3 — 3D Printing PLA & Quick References](docs/APPENDIX_B3.md)
+- [Appendix B4 — PAS Sensors, Hub Halls, Controller Mismatch](docs/APPENDIX_B4.md)
